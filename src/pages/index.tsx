@@ -38,7 +38,7 @@ export default function Home() {
   const personalInfo = {
     name: "Abdulmoiz Ahmer",
     title: "Full-Stack Software Consultant @ Ciklum",
-    avatarUrl: "https://source.boringavatars.com/beam/200/Abdulmoiz%20Ahmer?colors=02315E,00457E,015C92,2D82B5,ffffff",
+    avatarUrl: "/avatar.jpg",
     cv: {
       url: "https://docs.google.com/document/d/1SquSYKLUtVxEbhZy0593f9npgCJFUK66AcxCG2fZZ8o/edit?usp=sharing", 
       display: "View My CV"
