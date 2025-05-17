@@ -1,4 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Interactive 3D Business Card
+
+A modern, interactive business card built with Next.js, TypeScript, and Framer Motion. Features a 3D hover effect, smooth animations, and social media links.
+
+## Features
+
+- 3D card rotation effect
+- Animated avatar
+- Social media links with hover effects
+- Responsive design
+- Modern glassmorphism UI
+
+## Technologies Used
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
 ## Getting Started
 
@@ -10,11 +28,13 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Customize
+
+To customize the card with your information, edit the `personalInfo` object in `src/pages/index.tsx`.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
@@ -38,3 +58,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+# personal-business-card
