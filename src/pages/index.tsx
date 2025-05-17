@@ -9,7 +9,8 @@ import {
   FaPhone,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaFileAlt
+  FaFileAlt,
+  FaCertificate
 } from "react-icons/fa";
 
 export default function Home() {
@@ -42,6 +43,10 @@ export default function Home() {
     cv: {
       url: "https://docs.google.com/document/d/1SquSYKLUtVxEbhZy0593f9npgCJFUK66AcxCG2fZZ8o/edit?usp=sharing", 
       display: "View My CV"
+    },
+    certifications: {
+      url: "https://drive.google.com/drive/folders/1An0VyUI6foKc82UBtpkCR7Hky7bNDe4J?usp=sharing",
+      display: "View My Certifications"
     },
     github: {
       url: "https://github.com/Abdulmoiz-Ahmer",
@@ -127,6 +132,7 @@ export default function Home() {
               <div className="space-y-7">
                 {[
                   { icon: FaFileAlt, text: personalInfo.cv.display, url: personalInfo.cv.url, color: "#ffffff" },
+                  { icon: FaCertificate, text: personalInfo.certifications.display, url: personalInfo.certifications.url, color: "#4285F4" },
                   { icon: FaGithub, text: personalInfo.github.display, url: personalInfo.github.url, color: "#171515" },
                   { icon: FaLinkedin, text: personalInfo.linkedin.display, url: personalInfo.linkedin.url, color: "#0077b5" },
                   { icon: FaStackOverflow, text: personalInfo.stackoverflow.display, url: personalInfo.stackoverflow.url, color: "#f48024" },
